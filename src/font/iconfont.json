@@ -1,0 +1,114 @@
+{
+  "id": "1912076",
+  "name": "装修",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2391700",
+      "name": "男",
+      "font_class": "nan",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "14005437",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "2428007",
+      "name": "喜欢",
+      "font_class": "xihuan",
+      "unicode": "e81c",
+      "unicode_decimal": 59420
+    },
+    {
+      "icon_id": "3058381",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12985040",
+      "name": "眼睛",
+      "font_class": "yanjing",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3493943",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e929",
+      "unicode_decimal": 59689
+    },
+    {
+      "icon_id": "13374381",
+      "name": "消 息",
+      "font_class": "xiaoxi",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "76919",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "7626366",
+      "name": "作品",
+      "font_class": "zuopin",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
+      "icon_id": "7738698",
+      "name": "毕业",
+      "font_class": "biye",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "14145171",
+      "name": "作品",
+      "font_class": "zuopin1",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "5931948",
+      "name": "长箭头",
+      "font_class": "jiang-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6287984",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "7153572",
+      "name": "邮件",
+      "font_class": "youjian",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "14079993",
+      "name": "电  话",
+      "font_class": "dianhua",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    }
+  ]
+}

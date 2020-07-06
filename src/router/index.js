@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import Index from '../components/index.vue'
 import Detaols from '@/components/details'
 import Product from '../components/product/index.vue'
-import AS from '@/components/s'
 import Display from '../components/display/index.vue'
 import About from '../components/about/index.vue'
 import Business from '../components/business/index.vue'
@@ -32,10 +31,6 @@ export default new Router({
   	path: '/product',
   	name: 'Product',
   	component: Product
-  }, {
-  	path: '/as',
-  	name: 'AS',
-  	component: AS
   }, {
 	 path: '/display',
 	 name: 'Display',

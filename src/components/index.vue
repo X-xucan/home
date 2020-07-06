@@ -115,7 +115,7 @@
 	  				</div>
 	  				
 	  				<div class="product_btn">
-	  					<router-link to="/product"><p>更多<span class="iconfont icon-jiang-copy"></span></p></router-link>
+	  					<router-link to="/display"><p>更多<span class="iconfont icon-jiang-copy"></span></p></router-link>
 	  				</div>
 	  			</div>
 	  		</div>

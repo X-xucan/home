@@ -12,7 +12,7 @@
 					</el-breadcrumb>
 				</div> -->
 				<div class="exhibition clearfix">
-					<div class="fl">
+					<div class="fl exhibition_list">
 						<div class="goodDetails_name_img">
 							<img :src="ImgUrl">
 						</div>
@@ -65,8 +65,8 @@
 							<img v-if="isClick==1" style="color: #30D4F5;" src="../../img/dian1.png"></img>
 							
 							<div class="clicknum">
-								<span v-if="isClick==0">点赞</span>
-								<span v-if="isClick==1">已赞</span>
+								<span class="app_dian" v-if="isClick==0">点赞</span>
+								<span app_dian v-if="isClick==1">已赞</span>
 								<span class="margin-5-left">{{clickNum}}</span>
 							</div>
 						</li>

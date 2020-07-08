@@ -1,0 +1,34 @@
+.app_my .my_haed{
+	width: 100px;
+	height: 100px;
+}
+.app_my_list{
+	width: 100%;
+	height: 190px;
+	background-image: url(../../img/back1.jpg);
+	padding: 30px 58px;
+	box-sizing: border-box;
+}
+.app_my_content{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: -50px;
+	color: #fff;
+}
+.app_my_works{
+	margin-top: 20px;
+}
+.app_my_fans{
+	margin-top: 20px;
+}
+.app_my_content ul li {
+	width: 33.3333333%;
+	text-align: center;
+}
+.app_my .my_title{
+	color: #000;
+	text-align: center;
+}
+.app_my{
+	display: none;
+}

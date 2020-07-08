@@ -12,11 +12,36 @@
 					        </li>
 					    </template>
 					</ul>
+				</div> 
+				<div class="project_title app_project">
+					<ul class='boxlbox clearfix'>
+						<span class="fl boxlb_text text-white">板块：</span>
+					    <template v-for="(item,index) in Lists">
+					        <li :key="index" @click='leftTap(index)' :class="{boxlb_cheak:cIndex==index}" class='boxlb fl'>
+					            <span class='boxlb_inner text-white' :class="{boxlb_inner_cheak:cIndex==index}">{{item.title}}</span>
+					        </li>
+					    </template>
+					</ul>
 				</div>
-				<div class="project_list">
+				
+				
+				<div class="project_list on">
 					<ul class="clearfix">
 						<li :key="index"  v-for="(item,index) in Lists[cIndex].goods.slice((currentPage- 1)*pagesize,currentPage*pagesize)">
 						    <img :src="item.img" />
+						</li>
+					</ul>
+				</div>
+				<div class="project_list active">
+					<ul class="clearfix">
+						<li :key="index"  v-for="(item,index) in Lists[cIndex].goods">
+						    <div style="width: 100%; height: 130px;">
+								<img style="height: 100%;" :src="item.img" />
+							</div>
+							<div>
+								<p class="text-center margin-5-top text-bolder font-14">文艺风范</p>
+								<p class="overflow-1">描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述</p>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -77,6 +102,26 @@ export default{
 </script>
 
 <style>
+.project_list.active{
+	display: none;
+}
+.project_title.app_project{
+	display: none;
+	padding: 0;
+	padding-top: 22px;
+}
+.project_title.app_project .boxlb_inner{
+	    margin-right: 2px;
+	    width: 57px;
+	    height: 20px;
+	    display: inline-block;
+	    text-align: center;
+	    line-height: 20px;
+	    cursor: pointer;
+}
+.project_title.app_project ul {
+	padding-top: 8px;
+}
 .turn_page {
 	text-align: center;
 	margin-bottom: 100px;

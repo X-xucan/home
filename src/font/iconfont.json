@@ -6,6 +6,48 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "7707148",
+      "name": "扩展",
+      "font_class": "kuozhan",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "3173724",
+      "name": "主页",
+      "font_class": "zhuye",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6803955",
+      "name": "全部",
+      "font_class": "quanbu",
+      "unicode": "e6d2",
+      "unicode_decimal": 59090
+    },
+    {
+      "icon_id": "8466999",
+      "name": "我 的",
+      "font_class": "mine-gray",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1268843",
+      "name": "时间",
+      "font_class": "time",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "2034554",
+      "name": "风格",
+      "font_class": "fengge",
+      "unicode": "e765",
+      "unicode_decimal": 59237
+    },
+    {
       "icon_id": "2391700",
       "name": "男",
       "font_class": "nan",

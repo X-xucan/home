@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.14.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle home@1.0.0~predev: home@1.0.0
+6 info lifecycle home@1.0.0~dev: home@1.0.0
+7 verbose lifecycle home@1.0.0~dev: unsafe-perm in lifecycle true
+8 verbose lifecycle home@1.0.0~dev: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\xuchan\Desktop\新建文件夹 (2)\home\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\xuchan\AppData\Local\Microsoft\WindowsApps;;C:\Users\xuchan\AppData\Roaming\npm;C:\Users\xuchan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Bandizip\
+9 verbose lifecycle home@1.0.0~dev: CWD: C:\Users\xuchan\Desktop\新建文件夹 (2)\home
+10 silly lifecycle home@1.0.0~dev: Args: [
+10 silly lifecycle   '/d /s /c',
+10 silly lifecycle   'webpack-dev-server --inline --progress --config build/webpack.dev.conf.js'
+10 silly lifecycle ]
+11 timing npm Completed in 2383329ms
+12 error cb() never called!
+13 error This is an error with npm itself. Please report this error at:
+14 error <https://npm.community>

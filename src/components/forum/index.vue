@@ -3,18 +3,34 @@
 		<Top></Top>
 		<div class="content">
 			<!-- 轮播图 -->
-			<div class="banner">
-				<el-carousel :interval="3000" height="490px" arrow="always">
-				  <el-carousel-item >
-					<img src="../../img/Fbanner1.jpg" />
-				  </el-carousel-item>
-				  <el-carousel-item >
-					<img src="../../img/Fbanner2.png" />
-				  </el-carousel-item>
-				  <el-carousel-item >
-					<img src="../../img/banner1.jpg" />
-				  </el-carousel-item>
-				</el-carousel>
+			<div class="banner app_css">
+				<div class="pc">
+					<el-carousel :interval="3000" height="490px" arrow="always">
+					  <el-carousel-item >
+						<img src="../../img/Fbanner1.jpg" />
+					  </el-carousel-item>
+					  <el-carousel-item >
+						<img src="../../img/Fbanner2.png" />
+					  </el-carousel-item>
+					  <el-carousel-item >
+						<img src="../../img/banner1.jpg" />
+					  </el-carousel-item>
+					</el-carousel>
+				</div>
+				<!-- app -->
+				<div class="app">
+					<el-carousel :interval="3000" height="180px" arrow="always">
+					  <el-carousel-item >
+					  	<img src="../../img/Fbanner1.jpg" />
+					  </el-carousel-item>
+					  <el-carousel-item >
+					  	<img src="../../img/Fbanner2.png" />
+					  </el-carousel-item>
+					  <el-carousel-item >
+					  	<img src="../../img/banner1.jpg" />
+					  </el-carousel-item>
+					</el-carousel>
+				</div>
 			</div>
 			<!-- 推荐好的 -->
 			<div class="forum">
@@ -38,10 +54,21 @@
 					</ul>
 				</div>
 				
+				<div class="project_title app_project">
+					<ul class='boxlbox clearfix'>
+						<span class="fl boxlb_text text-white">板块：</span>
+					    <template v-for="(item,index) in Lists">
+					        <li :key="index" @click='leftTap(index)' :class="{boxlb_cheak:cIndex==index}" class='boxlb fl'>
+					            <span class='boxlb_inner text-white' :class="{boxlb_inner_cheak:cIndex==index}">{{item.title}}</span>
+					        </li>
+					    </template>
+					</ul>
+				</div>
+				
 				<div class="project_list">
 						<ul class="clearfix">
 							<router-link to="/fdetails">
-								<li :key="index"  v-for="(item,index) in Lists[cIndex].goods.slice((currentPage- 1)*pagesize,currentPage*pagesize)">
+								<li :key="index" class="app_page" v-for="(item,index) in Lists[cIndex].goods.slice((currentPage- 1)*pagesize,currentPage*pagesize)">
 									<div class="project_img">
 										<img :src="item.img" />
 									</div>
@@ -72,12 +99,49 @@
 										<p class="fr margin-5-top text-gray">{{item.data}}</p>
 									</div>
 								</li>
+								
 							</router-link>
+							
+							<div class="app_page1">
+								<router-link to="/fdetails">
+									<li :key="index" v-for="(item,index) in Lists[cIndex].goods">
+									<div class="project_img">
+										<img :src="item.img" />
+									</div>
+									<div class="project_cont">
+										<p class="font-16 text-black">{{item.title}}</p>
+										<div class="margin-15-top text-gray clearfix">
+											<div class="fl clearfix">
+												<span class="iconfont icon-yanjing fl"></span>
+												<span class="fl margin-5-left">{{item.see}}</span>
+											</div>
+											
+											<div class="fl clearfix">
+												<span class="iconfont icon-xihuan margin-20-left fl"></span>
+												<span class="fl margin-5-left">{{item.like}}</span>
+											</div>
+											
+											<div class="fl clearfix">
+												<span class="iconfont icon-xinxi margin-20-left fl"></span>
+												<span class="fl margin-5-left">{{item.info}}</span>
+											</div>
+										</div>
+									</div>
+									<div class="project_name clearfix">
+										<div class="project_name_title fl">
+											<img :src="item.head" />
+										</div>
+										<p class="fl margin-5-top margin-5-left text-black font-14">{{item.name}}</p>
+										<p class="fr margin-5-top text-gray">{{item.data}}</p>
+									</div>
+								</li>
+								</router-link>
+							</div>							
 						</ul>
 					
 				</div>
 				<!-- 分页  -->
-				<div class="turn_page">
+				<div class="turn_page on1">
 					<el-pagination
 						layout="prev, pager, next"
 						:page-size="pagesize"
@@ -87,7 +151,6 @@
 						 :total="Lists[cIndex].goods.length">
 					</el-pagination>
 				</div>
-			
 			</div>
 			
 		</div>
@@ -109,7 +172,8 @@ export default {
 			appearCar: false,
 			info:[],//数据
 			pagesize:12,//每页多少数据
-			currentPage:1  ,
+			currentPage:1,
+			pagesizes: 6
 		}
 	},
 	components:{
@@ -135,6 +199,7 @@ export default {
 </script>
 
 <style scoped="scoped">
+@import url("index.css");
 .project_name_title{
 	width: 30px;
 	height: 30px;
@@ -236,5 +301,14 @@ export default {
 .banner img{
 	width: 100%;
 	height: 100%;
+}
+.app_css .app{
+	display: none;
+}
+.on {
+	display: none;
+}
+.app_page1 {
+	display: none;
 }
 </style>

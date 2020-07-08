@@ -1,21 +1,37 @@
 <template>
   <div>
 	  <Top></Top>
-	  <div class="banner">
+	  <div class="banner app_css">
 	  		 <!-- 轮播图 -->
 	  		<div class="banner_list">
-	  			<el-carousel :interval="3000" height="705px" arrow="always">
-	  			  <el-carousel-item >
-	  				<img src="../img/banner1.jpg" />
-	  			  </el-carousel-item>
-	  			  <el-carousel-item >
-	  				<img src="../img/banner1.jpg" />
-	  			  </el-carousel-item>
-	  			  <el-carousel-item >
-	  				<img src="../img/banner1.jpg" />
-	  			  </el-carousel-item>
-	  			</el-carousel>
-	  			<div class="content">
+	  			<div class="pc">
+					<el-carousel :interval="3000" height="705px" arrow="always">
+					  <el-carousel-item >
+						<img src="../img/banner1.jpg" />
+					  </el-carousel-item>
+					  <el-carousel-item >
+						<img src="../img/banner1.jpg" />
+					  </el-carousel-item>
+					  <el-carousel-item >
+						<img src="../img/banner1.jpg" />
+					  </el-carousel-item>
+					</el-carousel>
+				</div>
+				<!-- app -->
+				<div class="app">
+					<el-carousel :interval="3000" height="180px" arrow="always">
+					  <el-carousel-item >
+						<img src="../img/banner1.jpg" />
+					  </el-carousel-item>
+					  <el-carousel-item >
+						<img src="../img/banner1.jpg" />
+					  </el-carousel-item>
+					  <el-carousel-item >
+						<img src="../img/banner1.jpg" />
+					  </el-carousel-item>
+					</el-carousel>
+				</div>
+				<div class="content">
 	  				<div class="offer">
 	  					<div class="offer_list clearfix">
 	  						<div class="offer_list_cont fl">
@@ -56,12 +72,12 @@
 	  									  </el-select>
 	  									</template>
 	  								</div>
-	  								<div class="house margin-10-top">
+	  								<div class="house houses margin-10-top">
 	  									<span class="house_title">小区面积</span>
 	  									<input placeholder="请输入小区名称" />
 	  									<input placeholder="请输入室内面积" style="width: 315px;" />
 	  								</div>
-	  								<div class="house margin-10-top">
+	  								<div class="house houses margin-10-top">
 	  									<span class="house_title">联系方式</span>
 	  									<input placeholder="请输入您的姓名" />
 	  									<input placeholder="请输入您的电话号码" style="width: 315px;" />
@@ -107,7 +123,11 @@
 	  							  <el-col :span="4"><div class="grid-content3"><img src="../img/goods4.jpg" /></div></el-col>
 	  							  <el-col :span="16"><div class="grid-content4"><img src="../img/goods5.jpg" /></div></el-col>
 	  							</el-row>
-	  						</div>
+								<div class="title">
+									<p class="font-30">北欧风</p>
+									<p class="font-24 overflow3">介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍...</p>
+								</div>
+							</div>
 	  						<div class="tab-div" v-show="cur==1"></div>
 	  						<div class="tab-div" v-show="cur==2"></div>
 	  						<div class="tab-div" v-show="cur==3"></div>
@@ -136,90 +156,131 @@
 	  					<h6>资深设计大咖</h6>
 	  					<h5>一对一私人定制服务</h5>
 	  				</div>
-	  				<div style="margin-top: 60px;" class="big_shot_item">
-	  					<el-carousel :interval="4000" height="353px" type="card" >
-	  						<!-- v-for="item in 3" :key="item" -->
-	  					  <el-carousel-item > 
-	  						<div class="character clearfix">
-	  							<div class="character_left">
-	  								<img src="../img/name.jpg" />
-	  							</div>
-	  							<div class="character_right">
-	  								<div class="character_name" style="margin-top: 38px;">
-	  									<span class="font-30">薛之谦</span>
-	  									<span class="font-14 margin-10-left" style="color: #333;">歌手</span>
-	  								</div>
-	  								<div style="margin-top: 15px; color: #333;" class="overflow-1 font-14">
-	  									用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
-	  									用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
-	  								</div>
-	  								<div style="margin-top: 30px; color: #333;">
-	  									<p class="iconfont icon-shijian margin-5-top"><span class="margin-5-left">从业时间：16年</span></p>
-	  									<p class="iconfont icon-biye margin-5-top"><span class="margin-5-left">毕业院校：中央戏剧学院</span></p>
-	  									<p class="iconfont icon-zuopin margin-5-top"><span class="margin-5-left">作品数量：25套</span></p>
-	  									<p class="iconfont icon-zuopin1 margin-5-top overflow1"><span class="margin-5-left">擅长风格：现代简约，古典现代简约，古典现代简约，古典现代简约，古典</span></p>
-	  								</div>
-	  								<div class="character_btn">
-	  									<router-link to="/detaols"><span>查看详情</span></router-link>
-	  								</div>
-	  							</div>
-	  						</div>
-	  					  </el-carousel-item>
-						  <el-carousel-item >
-							<div class="character clearfix">
-								<div class="character_left">
-									<img src="../img/name.jpg" />
-								</div>
-								<div class="character_right">
-									<div class="character_name" style="margin-top: 38px;">
-										<span class="font-30">薛之谦</span>
-										<span class="font-14 margin-10-left" style="color: #333;">歌手</span>
+	  				<div>
+						<div style="margin-top: 60px;" class="big_shot_item">
+							<el-carousel :interval="4000" height="353px" type="card" >
+								<!-- v-for="item in 3" :key="item" -->
+							  <el-carousel-item > 
+								<div class="character clearfix">
+									<div class="character_left">
+										<img src="../img/name.jpg" />
 									</div>
-									<div style="margin-top: 15px; color: #333;" class="overflow-1 font-14">
-										用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
-										用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
-									</div>
-									<div style="margin-top: 30px; color: #333;">
-										<p class="iconfont icon-shijian margin-5-top"><span class="margin-5-left">从业时间：16年</span></p>
-										<p class="iconfont icon-biye margin-5-top"><span class="margin-5-left">毕业院校：中央戏剧学院</span></p>
-										<p class="iconfont icon-zuopin margin-5-top"><span class="margin-5-left">作品数量：25套</span></p>
-										<p class="iconfont icon-zuopin1 margin-5-top overflow1"><span class="margin-5-left">擅长风格：现代简约，古典现代简约，古典现代简约，古典现代简约，古典</span></p>
-									</div>
-									<div class="character_btn">
-										<router-link to="/detaols"><span>查看详情</span></router-link>
+									<div class="character_right">
+										<div class="character_name" style="margin-top: 38px;">
+											<span class="font-30">薛之谦</span>
+											<span class="font-14 margin-10-left" style="color: #333;">歌手</span>
+										</div>
+										<div style="margin-top: 15px; color: #333;" class="overflow-1 font-14">
+											用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
+											用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
+										</div>
+										<div style="margin-top: 30px; color: #333;">
+											<p class="iconfont icon-shijian margin-5-top"><span class="margin-5-left">从业时间：16年</span></p>
+											<p class="iconfont icon-biye margin-5-top"><span class="margin-5-left">毕业院校：中央戏剧学院</span></p>
+											<p class="iconfont icon-zuopin margin-5-top"><span class="margin-5-left">作品数量：25套</span></p>
+											<p class="iconfont icon-zuopin1 margin-5-top overflow1"><span class="margin-5-left">擅长风格：现代简约，古典现代简约，古典现代简约，古典现代简约，古典</span></p>
+										</div>
+										<div class="character_btn">
+											<router-link to="/detaols"><span>查看详情</span></router-link>
+										</div>
 									</div>
 								</div>
+							  </el-carousel-item>
+							 <el-carousel-item >
+								<div class="character clearfix">
+									<div class="character_left">
+										<img src="../img/name.jpg" />
+									</div>
+									<div class="character_right">
+										<div class="character_name" style="margin-top: 38px;">
+											<span class="font-30">薛之谦</span>
+											<span class="font-14 margin-10-left" style="color: #333;">歌手</span>
+										</div>
+										<div style="margin-top: 15px; color: #333;" class="overflow-1 font-14">
+											用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
+											用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
+										</div>
+										<div style="margin-top: 30px; color: #333;">
+											<p class="iconfont icon-shijian margin-5-top"><span class="margin-5-left">从业时间：16年</span></p>
+											<p class="iconfont icon-biye margin-5-top"><span class="margin-5-left">毕业院校：中央戏剧学院</span></p>
+											<p class="iconfont icon-zuopin margin-5-top"><span class="margin-5-left">作品数量：25套</span></p>
+											<p class="iconfont icon-zuopin1 margin-5-top overflow1"><span class="margin-5-left">擅长风格：现代简约，古典现代简约，古典现代简约，古典现代简约，古典</span></p>
+										</div>
+										<div class="character_btn">
+											<router-link to="/detaols"><span>查看详情</span></router-link>
+										</div>
+									</div>
+								</div>
+							  </el-carousel-item>
+							  <el-carousel-item >
+								<div class="character clearfix">
+									<div class="character_left">
+										<img src="../img/goods1.jpg" />
+									</div>
+									<div class="character_right">
+										<div class="character_name" style="margin-top: 38px;">
+											<span class="font-30">薛之谦</span>
+											<span class="font-14 margin-10-left" style="color: #333;">歌手</span>
+										</div>
+										<div style="margin-top: 15px; color: #333;" class="overflow-1 font-14">
+											用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
+											用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
+										</div>
+										<div style="margin-top: 30px; color: #333;">
+											<p class="iconfont icon-shijian margin-5-top"><span class="margin-5-left">从业时间：16年</span></p>
+											<p class="iconfont icon-biye margin-5-top"><span class="margin-5-left">毕业院校：中央戏剧学院</span></p>
+											<p class="iconfont icon-zuopin margin-5-top"><span class="margin-5-left">作品数量：25套</span></p>
+											<p class="iconfont icon-zuopin1 margin-5-top overflow1"><span class="margin-5-left">擅长风格：现代简约，古典现代简约，古典现代简约，古典现代简约，古典</span></p>
+										</div>
+										<div class="character_btn">
+											<router-link to="/detaols"><span>查看详情</span></router-link>
+										</div>
+									</div>
+								</div>
+							  </el-carousel-item>
+							</el-carousel>
+						</div>
+						<div class="app_big_item">
+							<ul class="clearfix">
+								<li class="app_li">
+									<div class="app_big_img">
+										<img src="../img/chara.jpg"/>
+									</div>
+									<div class="app_list">
+										<div>
+											<span class="font-24">张萌</span> <span class="font-18 margin-10-left text-ligh">软装设计师</span>
+										</div>
+										<div class="margin-30-top">
+											<span style="color: #88e0fa;" class="iconfont icon-fengge font-24"></span><span class="font-18 margin-5-left">现代简约</span>
+											<span style="color: #d78bec;" class="iconfont icon-time font-24 margin-20-left"></span>
+											<span class="font-18 margin-5-left">2年</span>
+										</div>
+									</div>
+								</li>
+								<li class="app_li">
+									<div class="app_big_img">
+										<img src="../img/chara.jpg"/>
+									</div>
+									<div class="app_list">
+										<div>
+											<span class="font-24">张萌</span> <span class="font-18 margin-10-left text-ligh">软装设计师</span>
+										</div>
+										<div class="margin-30-top">
+											<span style="color: #88e0fa;" class="iconfont icon-fengge font-24"></span><span class="font-18 margin-5-left">现代简约</span>
+											<span style="color: #d78bec;" class="iconfont icon-time font-24 margin-20-left"></span>
+											<span class="font-18 margin-5-left">2年</span>
+										</div>
+									</div>
+								</li>
+
+							</ul>
+							
+							<div class="product_btns">
+								<router-link to="/design"><p>更多<span class="iconfont icon-jiang-copy"></span></p></router-link>
 							</div>
-						  </el-carousel-item>
-						  <el-carousel-item >
-							<div class="character clearfix">
-								<div class="character_left">
-									<img src="../img/goods1.jpg" />
-								</div>
-								<div class="character_right">
-									<div class="character_name" style="margin-top: 38px;">
-										<span class="font-30">薛之谦</span>
-										<span class="font-14 margin-10-left" style="color: #333;">歌手</span>
-									</div>
-									<div style="margin-top: 15px; color: #333;" class="overflow-1 font-14">
-										用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
-										用心观察生活，感悟人生真谛，让设计与生活互动呀呀呀呀
-									</div>
-									<div style="margin-top: 30px; color: #333;">
-										<p class="iconfont icon-shijian margin-5-top"><span class="margin-5-left">从业时间：16年</span></p>
-										<p class="iconfont icon-biye margin-5-top"><span class="margin-5-left">毕业院校：中央戏剧学院</span></p>
-										<p class="iconfont icon-zuopin margin-5-top"><span class="margin-5-left">作品数量：25套</span></p>
-										<p class="iconfont icon-zuopin1 margin-5-top overflow1"><span class="margin-5-left">擅长风格：现代简约，古典现代简约，古典现代简约，古典现代简约，古典</span></p>
-									</div>
-									<div class="character_btn">
-										<router-link to="/detaols"><span>查看详情</span></router-link>
-									</div>
-								</div>
-							</div>
-						  </el-carousel-item>
-	  					</el-carousel>
-	  				</div>
-	  			</div>
+						</div>
+					</div>
+				</div>
 	  		</div>
 	  		<!-- 经典案列 -->
 	  		<div class="case_list">
@@ -237,11 +298,11 @@
 								<p style="font-size: 20px;">中式装修</p>
 								<div class="font-14 margin-10-top">
 									<span class="iconfont icon-biaoqian"></span>
-									<span>2020/14/4</span>
+									<span class="text">2020/14/4</span>
 									<span class="iconfont icon-xiaoxi margin-30-left"></span>
-									<span>13</span>
+									<span class="text">13</span>
 								</div>
-								<div class="overflow-1 margin-20-top" style="width: 320px;">
+								<div class="overflow-1 margin-20-top text" style="width: 100%;">
 									介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍绍
 									介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍绍...
 								</div>
@@ -296,6 +357,7 @@
 				</div>
 			</div>
 	  </div>
+	  
 	  <Bottom></Bottom>
   </div>
 </template>

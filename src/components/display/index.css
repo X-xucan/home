@@ -1,0 +1,25 @@
+.tab_label.on{
+	width: 100%;
+	height: 90px;
+	border: 1px solid #F5F2F0;
+	text-align: initial;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.tab_label.on ul li{
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.tab_label.on ul{
+	width: 250px;
+	margin-left: 10px;
+}
+.tab_label.on{
+	display: none;
+}
+.goods_lsit.on{
+	display: none;
+}

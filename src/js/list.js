@@ -201,33 +201,31 @@ let list = [
 			    {
 			        title: "家居实景",
 			        goods: [
-			            {id: 0,img: require('../img/home1.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' ,data: 16.25},
-			            {id: 1,img: require('../img/home2.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-			            {id: 1,img: require('../img/home3.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-			            {id: 1,img: require('../img/home4.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-			            {id: 1,img: require('../img/home5.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-			            {id: 1,img: require('../img/home6.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-			            {id: 1,img: require('../img/home7.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-						{id: 1,img: require('../img/home8.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-						{id: 1,img: require('../img/home9.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-						{id: 1,img: require('../img/home10.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-						{id: 1,img: require('../img/home11.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-						{id: 1,img: require('../img/home12.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-						{id: 1,img: require('../img/home7.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-						{id: 1,img: require('../img/home8.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'), name: '佛系白小白' ,data: 16.25},
-						{id: 1,img: require('../img/home9.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-						{id: 1,img: require('../img/home10.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
-						{id: 1,img: require('../img/home11.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'), name: '佛系白小白' ,data: 16.25}
+			            {img: require('../img/home1.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' ,data: 16.25},
+			            {img: require('../img/home2.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+			            {img: require('../img/home3.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+			            {img: require('../img/home4.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+			            {img: require('../img/home5.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+			            {img: require('../img/home6.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+			            {img: require('../img/home7.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+						{img: require('../img/home8.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+						{img: require('../img/home9.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+						{img: require('../img/home10.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+						{img: require('../img/home11.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+						{img: require('../img/home12.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+						{img: require('../img/home7.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+						{img: require('../img/home8.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'), name: '佛系白小白' ,data: 16.25},
+						{img: require('../img/home9.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+						{img: require('../img/home10.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'),name: '佛系白小白' , data: 16.25},
+						{img: require('../img/home11.jpg'),title: '现代|简约|大气', see: 11, like: '1', info: 0,head: require('../img/home1.jpg'), name: '佛系白小白' ,data: 16.25}
 				 
 			        ]
 			    }, {
 			        title: "软件设计",
 			        goods: [
 			            {
-			                id: 2,
 			                img: require('../img/goods3.jpg'),
 			            }, {
-			                id: 3,
 			                img: require('../img/goods3.jpg'),
 			            }
 			        ]
@@ -235,11 +233,8 @@ let list = [
 			        title: "作品渲染",
 			        goods: [
 			            {
-			                id: 2,
 			                img: require('../img/goods3.jpg'),
-			                num: 0
 			            }, {
-			                id: 3,
 			                img: require('../img/goods3.jpg'),
 			            }
 			        ]
@@ -247,10 +242,8 @@ let list = [
 			        title: "户型方案",
 			        goods: [
 			            {
-			                id: 2,
 			                img: require('../img/goods3.jpg'),
 			            }, {
-			                id: 3,
 			                img: require('../img/goods3.jpg'),
 			            }
 			        ]
@@ -258,21 +251,58 @@ let list = [
 			        title: "广告设计",
 			        goods: [
 			            {
-			                id: 2,
 			                img: require('../img/goods3.jpg'),
 			            }, {
-			                id: 3,
 			                img: require('../img/goods3.jpg'),
 			            }
 			        ]
 			    }
 			]
-			
+		
+let design = [{
+	img: require('../img/goods3.jpg'),
+	name: '张萌',
+	identity: '软件设计师',
+	style: '现代简约',
+	time: '12:30'
+},{
+	img: require('../img/goods3.jpg'),
+	name: '李四',
+	identity: '软件设计师',
+	style: '现代简约',
+	time: '12:30'
+},{
+	img: require('../img/goods3.jpg'),
+	name: '王二',
+	identity: '软件设计师',
+	style: '现代简约',
+	time: '12:30'
+},{
+	img: require('../img/goods3.jpg'),
+	name: '小白',
+	identity: '软件设计师',
+	style: '现代简约',
+	time: '12:30'
+},{
+	img: require('../img/goods3.jpg'),
+	name: '小黑',
+	identity: '软件设计师',
+	style: '现代简约',
+	time: '12:30'
+},{
+	img: require('../img/goods3.jpg'),
+	name: '小灰',
+	identity: '软件设计师',
+	style: '现代简约',
+	time: '12:30'
+}]
+ 			
 export {
 	goods,
 	type,
 	imgUrl,
 	room,
 	typeList,
-	list
+	list,
+	design
 }

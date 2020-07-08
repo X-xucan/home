@@ -1,0 +1,14 @@
+.project_title.app_project{
+	padding: 0;
+	padding-top: 22px;
+}
+.project_title.app_project .boxlb_inner{
+	margin-right: 5px;
+	width: 53px;
+}
+.project_title.app_project .boxlb_text{
+	width: 50px;
+}
+.project_title.app_project {
+	display: none;
+}

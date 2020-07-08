@@ -3,7 +3,7 @@
 		<Top></Top>
 		<div class="details">
 			<div class="content">
-				<div class="introduce">
+				<div class="introduce clearfix">
 					<div class="introduce_img">
 						<img src="../../img/chara.jpg" />
 					</div>
@@ -12,7 +12,7 @@
 							<span class="font-22">刘萍萍</span>
 							<span style="color: #1293a6;" class="margin-25-left">首席设计师</span>
 						</div>
-						<p class="font-14 margin-25-top">用心感受生活，感悟人生，让设计与生活结合</p>
+						<p class="font-14 margin-25-top ">用心感受生活，感悟人生，让设计与生活结合</p>
 						<div style="margin-top: 40px; color: #999999 ;" class="font-size">
 							<p class="iconfont icon-shijian margin-5-top"><span class="margin-5-left">从业时间：16年</span></p>
 							<p class="iconfont icon-biye margin-5-top"><span class="margin-5-left">毕业院校：中央戏剧学院</span></p>
@@ -120,6 +120,7 @@
 										</div>
 									</div>
 								</div>
+							
 							</div>
 							<div class="btn" @click="showModal=true">预约ta</div>
 						</div>
@@ -159,6 +160,145 @@
 				</div>
 			</div>
 		</div>
+		<div class="details on">
+			<div class="content">
+				<div class="introduce">
+					<div class="introduce_img">
+						<img src="../../img/chara.jpg" />
+					</div>
+					<div class="introduce_list">
+						<div class="">
+							<span class="font-22">刘萍萍</span>
+							<span style="color: #1293a6;" class="margin-25-left">首席设计师</span>
+						</div>
+						<p class="font-14 margin-25-top list">用心感受生活，感悟人生，让设计与生活结合</p>
+						<div style="margin-top: 20px; color: #999999 ;" class="font-size">
+							<p class="overflow3">从业时间：16年  毕业院校：中央戏剧学院 作品数量：25套 擅长风格：现代简约，古典现代简约，古典现代简约，古典现代简约，古典</p>
+						</div>
+					</div>    
+				</div>
+				<div class="pop_tab">
+					<ul class="tab-tilte clearfix">
+						<li @click="cur=0" :class="{active:cur==0}">室内装修</li>
+						<li @click="cur=1" :class="{active:cur==1}">广告设计</li>
+					</ul>
+					<i class="el-icon-circle-close" @click="showModal=false"></i>
+					<div class="tab-content">
+						<div class="list" v-show="cur==0">
+							<form class="clearfix">
+								<div class="offer_list_text fl">
+									<div class="house clearfix">
+										<span class="house_title">房置户型</span>
+										<template>
+										  <el-select v-model="value" placeholder="请选择">
+										    <el-option
+										      v-for="item in roomList"
+										      :key="item.value"
+										      :label="item.label"
+										      :value="item.room">
+										    </el-option>
+										  </el-select>
+										</template>
+										<template>
+										  <el-select v-model="value1" placeholder="请选择">
+										    <el-option
+										      v-for="item in roomList"
+										      :key="item.value"
+										      :label="item.label"
+										      :value="item.office">
+										    </el-option>
+										  </el-select>
+										</template>
+										<template>
+										  <el-select v-model="value2" placeholder="请选择">
+										    <el-option
+										      v-for="item in roomList"
+										      :key="item.value"
+										      :label="item.label"
+										      :value="item.wei">
+										    </el-option>
+										  </el-select>
+										</template>
+									</div>
+									<div class="house margin-15-top">
+										<span class="house_title">小区面积</span>
+										<input placeholder="请输入小区名称" />
+										<input placeholder="请输入室内面积" style="width: 187px;" />
+									</div>
+									<div class="house margin-15-top">
+										<span class="house_title">联系方式</span>
+										<input placeholder="请输入您的姓名" />
+										<input placeholder="请输入您的电话号码" style="width: 187px;" />
+									</div>
+								</div>
+								<div class="clearfix">
+									<div class="fr offer_list_btn">
+										<span class="text-white" >提交</span>
+									</div>
+								</div>		
+							</form>
+						</div>
+						<div class="list" v-show="cur==1">
+							<form>
+								<div class="offer_list_text fl">
+									<div class="house">
+										<span class="house_title">设计类型</span>
+										<template>
+										  <el-select v-model="type" placeholder="请选择">
+										    <el-option
+										      v-for="item in typeList"
+										      :key="item.value"
+										      :label="item.label"
+										      :value="item.title">
+										    </el-option>
+										  </el-select>
+										</template>
+									</div>
+									<div class="house margin-15-top">
+										<span class="house_title">需求描述</span>
+										<input placeholder="请输入小区名称" style="width: 100%;"/>
+									</div>
+									<div class="house margin-15-top">
+										<span class="house_title">联系方式</span>
+										<input placeholder="请输入您的姓名" />
+										<input placeholder="请输入您的电话号码" style="width: 187px;" />
+									</div>
+								</div>
+								<div class="clearfix">
+									<div class="fr offer_list_btn">
+										<span class="text-white" >提交</span>
+									</div>
+								</div>		
+							</form>
+						</div>
+					</div>
+				</div>
+				
+				<!-- 个人作品 -->
+				<div class="personal">
+					<div class="btn">个人作品</div>
+					<div class="personal_list">
+						<ul class="clearfix">
+							<li v-for="item in goodslist" :key="item.index">
+								<div class="personal_list_img">
+									<img :src="item.img" />
+								</div>
+								<div class="list-title">
+									<p class="font-16 margin-10-top text-bolder">{{item.title}}</p>
+									<div class="font-12 margin-5-top text-blackdark">
+										<span>现代简约</span>
+										<span class="margin-10-left margin-10-right">59m</span>
+										<span>一室一厅</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		
 		<Bottom></Bottom>
 	</div>
 </template>
@@ -206,6 +346,9 @@ export default {
 </script>
 <!-- 620 835 -->
 <style scoped="scoped">
+.details.on{
+	display: none;
+}
 .house .el-select{
 	width: 146px;
 	margin-left: 33px;
@@ -253,16 +396,16 @@ export default {
 
 .tab-tilte{
 	width: 100%;
-	background: goldenrod;
 }
 .tab-tilte li{
 	float: left;
 	width: 50%;
-	padding: 10px 0;
+	padding: 15px 0;
 	text-align: center;
 	color: #999;
 	cursor: pointer;
 	font-size: 22px;
+	box-sizing: border-box;
 }
 /* 点击对应的标题添加对应的背景颜色 */
 .tab-tilte .active{
@@ -276,7 +419,7 @@ export default {
 	width: 620px;
 	height: 335px;
 	margin: 0 auto;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 .mask {
   background-color: #000;
@@ -323,7 +466,7 @@ export default {
 }
 .introduce_img img{
 	width: 100%;
-	height: 672px;
+	height: 100%;
 }
 .introduce_list{
 	width: 615px;
@@ -352,7 +495,7 @@ export default {
 }
 /* 个人作品 */
 .personal{
-	margin-top: 42px;
+	margin-top: 70px;
 	margin-bottom: 177px;
 }
 .personal .btn{

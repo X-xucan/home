@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "element-ui": "^2.13.2",
+    "lib-flexible": "^0.3.2",
     "qqmap": "^1.0.1",
     "vue": "^2.5.2",
     "vue-amap": "^0.5.10",

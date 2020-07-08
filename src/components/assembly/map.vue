@@ -1,8 +1,8 @@
 <template>
-    <div class="aa">
+    <div class="bm-view">
 		<baidu-map
 		:scroll-wheel-zoom="true"
-		:center="{lng:97.855664,lat:24.000081}" :zoom="17" class="bm-view">
+		:center="{lng:97.855664,lat:24.000081}" :zoom="17" class="bg-views">
 		    <bm-marker
 		    :position="{lng:97.855664,lat:24.000081}"
 		    animation=""
@@ -48,5 +48,9 @@ export default {
 .bm-view {
   width: 100%;
   height: 700px;
+}
+.bg-views{
+	width: 100%;
+	height: 100%;
 }
 </style>

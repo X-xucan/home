@@ -2,7 +2,7 @@
 	<div>
 		<Top></Top>
 		<div class="contact">
-			<div>
+			<div class="contact_img">
 				<img src="../../img/banner3.jpg">
 			</div>
 			<div class="content">

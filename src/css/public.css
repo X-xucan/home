@@ -16,13 +16,14 @@
 .bg-white{
 	background: white;
 }
-
 /* 标题 */
 .product_title, u{
 	font-size: 45px;
 	text-transform: uppercase;
 }
-
+.margin-4-top{
+	margin-top: 4px;
+}
 /*文字居中*/
 .text-center{
 	text-align: center;
@@ -99,8 +100,8 @@
 .text-hei{
 	color: #333333;
 }
-.text-Lightgray{
-	color: #CCCCCC;
+.text-ligh{
+	color: #b6b5b5;
 }
 /*行高 22 24 26 48*/
 
@@ -387,4 +388,11 @@
 	font-size: 14px;
 	color: #fff;
 	border-radius: 8px;
+}
+
+.overflow3{
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }

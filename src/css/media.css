@@ -1,0 +1,1742 @@
+@media only screen and (max-width: 750px) {
+	.about_culture1{
+		display: block !important; 
+	}
+	.content{
+		width: 100% !important;
+		margin: 0;
+		padding: 0 20px;
+		box-sizing: border-box !important;
+	}
+	.banner_list .app{
+		display: block !important;
+	}
+	.banner_list .pc{
+		display: none !important;
+	}
+	/* 头部导航 */
+	.navigation{
+		display: none !important; 
+	}
+	.app_nav {
+		display: block !important;
+	}
+	/* 底部导航 */
+	.bottom_list{
+		display: none;
+	}
+	/* 报价 */
+	.offer_list_cont{
+		display: none !important;
+	}
+	.offer_list{
+		margin-left: 0 !important;
+		width: 693px !important;
+		top: 0 !important;
+		position: initial !important;
+		padding: 20px 27px !important;
+	}
+	.offer_list_text {
+		padding: 9px !important;
+		
+	}
+	/* 产品展示 */
+	.product_display{
+		margin-top: 25px !important;
+	}
+	.content_list {
+		margin-top: 20px;
+	}
+	.grid-content1 , .grid-content2 , .grid-content3 , .grid-content4{
+		display: none !important; 
+	}
+	.app_css .grid-content{
+		width: 693px !important;
+		height: 465px !important;
+	}
+	.app_css .tab-content .tab-div .title {
+		display: block !important;
+	}
+	.app_css .tab-content .tab-div .title .font-30{
+		font-size: 20px;
+	}
+	.app_css .tab-content .tab-div .title .font-24{
+		font-size: 16px;
+		color: #666;
+	}
+	.el-row{
+		margin-bottom: 10px !important;
+	}
+	.app_css .tab-content .tab-div{
+		height: 625px !important;
+	}
+	.app_css .product_btn{
+		margin-bottom: 90px !important;
+	}
+	.app_css .big_shot_item{
+		display: none !important; 
+	}
+	.app_css .app_big_item{
+		display: block !important; 
+	} 
+	.app_css .case_list{
+		padding-top: 95px !important;
+	}
+	.app_css .case_list_ul li{
+		width: 100% !important;
+		height: 600px !important;
+	}
+	.app_css .case_list_img{
+		height: 370px !important;
+	}
+	.app_css .case_list_ul li{
+		display: none !important;
+	}
+	.app_css .case_list_ul li:first-child{
+		display: block !important;
+	}
+	.app_bottom {
+		display: block !important;
+	}
+	/* 论坛 */
+	.app_css .app{
+		display: block !important;
+	}
+	.app_css .pc{
+		display: none !important;
+	}
+	.forum {
+		width: 100%;
+		height: 655px !important;
+	}
+	.forum ul li{
+		width: 340px !important;
+		margin-right: 10px !important;
+		margin-top: 10px;
+	}
+	.forum ul li:nth-child(2n){
+		margin-right: 0 !important;
+	}
+	.project_list ul li{
+		width: 335px !important;
+		margin-right: 0 !important;
+	}
+	.project_list ul li:nth-child(2n){
+		margin-right: 0 !important;
+		float: right !important;
+	}
+	.project_list {
+		padding-left: 0 !important;
+	}
+	.on1 {
+		display: none;
+	}
+	.on{
+		display: block !important;
+	}
+	.app_page{
+		display: none;
+	}
+	.app_page1 {
+		display: block !important;
+	}
+	.goodDetails_name_img {
+		width: 100% !important;
+	}
+	.exhibition_list {
+		width: 100%;
+		float: none !important;
+	}
+	.little_img{
+		width: 100% !important;
+	}
+	.little_img ul{
+		width: 567px !important;
+		margin: 0 !important;
+	}
+	.little_img ul li{
+		width: 100px !important;
+	}
+	.little_img ul li img{
+		width: 100px !important;
+	}
+	.design {
+		float: none !important;
+	}
+	.exhibition {
+		height: 100% !important;
+		padding-bottom: 20px;
+	}
+	.design {
+		margin-top: 10px;
+		width: 100% !important;
+	}
+	.design_make_inp input{
+		width: 100% !important;
+	}
+	.design_list .overflow1{
+		width: 100% !important;
+	}
+	.my_publish textarea{
+		width: 591px !important;
+	}
+	.comment_img li{
+		width: 115px !important;
+	}
+	.list2 .publish{
+		margin-bottom: 240 !important;
+	}
+	.about_img{
+		padding: 0 20px;
+		box-sizing: border-box;
+		height: 400px !important;
+	}
+	.about_back_img{
+		display: none;
+	}
+	.about_text {
+		margin-top: 60px !important;
+	}
+	.about_culture{
+		display: none;
+	}
+	.about_exh_text{
+		width: 100% !important;
+		height: 400px !important;
+	}
+	.about_exh_top{
+		margin-top: 0 !important;
+	}
+	.about_exh_text div{
+		font-size: 16px;
+		line-height: 22px !important;
+	}
+	.about_list_title ul {
+		margin-left: 245px;
+		margin-top: 20px;
+	}
+	.about_list_title ul li{
+		float: none !important;
+		width: 220px !important;
+	}
+	.about_exh img{
+		width: 100% !important;
+		margin-bottom: 20px;
+	}
+	.growth ul li:nth-child(2n){
+		margin-right: 0 !important;
+	}
+	.growth ul li{
+		width: 335px !important;
+	}
+	.growth_text{
+		padding-bottom: 20px;
+		height: 100%;
+	}
+	.my_list .add_img{
+		padding-left: 28px;
+		box-sizing: border-box;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	
+	.content{
+		width: 100% !important;
+		margin: 0;
+		padding: 0 10px;
+		box-sizing: border-box !important;
+	}
+	.banner_list .app{
+		display: block !important;
+	}
+	.banner_list .pc{
+		display: none !important;
+	}
+	/* 头部导航 */
+	.navigation{
+		display: none !important; 
+	}
+	.app_nav {
+		display: block !important;
+	}
+	/* 底部导航 */
+	.bottom_list{
+		display: none;
+	}
+	/* 报价 */
+	.offer_list_cont{
+		display: none !important;
+	}
+	.login.on .tab-content .list{
+		border: 1px solid #F1F1F1;
+	}
+	.offer_list{
+		margin-left: 0 !important;
+		width: 100% !important;
+		top: 0 !important;
+		position: initial !important;
+		padding: 0 !important;
+		background: #fff !important;
+	}
+	.offer_list_text {
+		width: 100% !important;
+		margin-left: 0 !important;
+		background: #fff !important;
+		padding: 0 !important;
+		height: 100% !important;
+	}
+	.offer_list{
+		height: 100% !important;
+	}
+	.houses input{
+		margin-left: 0 !important;
+		width: 150px !important;
+		border-radius: 10px;
+		margin-right: 10px !important;
+		padding-left: 10px ;
+		box-sizing: border-box;
+	}
+	.offer_list_btn{
+		float: none !important;
+	}
+	.offer_list_btn span{
+		margin-top: 15px;
+		margin-left: 80px;
+		border-radius: 10px !important;
+	}
+	.houses input:last-child{
+		margin-right: 0 !important;
+	}
+	.house_title{
+		display: block !important;
+		padding-left: 4px;
+		text-align: initial !important; 
+	}
+	.el-select{
+		margin-left: 0 !important;
+		width: 110px !important;
+	}
+	.house input{
+		margin-left: 0px !important;
+	}
+	/* 产品展示 */
+	.product_display{
+		margin-top: 30px !important;
+	}
+	.tab-tilte{
+		width: 100% !important;
+		border-top: 1px solid #f1f1f1;
+	}
+	.grid-content1 , .grid-content2 , .grid-content3 , .grid-content4{
+		display: none !important; 
+	}
+	.app_css .grid-content{
+		width: 100% !important;
+		height: 190px !important;
+	}
+	.app_css .tab-content .tab-div .title {
+		display: block !important;
+	}
+	.app_css .tab-content .tab-div{
+		height: 310px !important;
+	}
+	.app_css .tab-content .tab-div .el-col-8{
+		width: 100% !important;
+	}
+	.app_css .product_btn{
+		margin-bottom: 50px !important;
+	}
+	.project_list.on{
+		display: none !important;
+	}
+	.app_css .big_shot_item{
+		display: none !important; 
+	}
+	.app_css .app_big_item{
+		display: block !important;
+		height: 100% !important;
+		padding-bottom: 20px;
+	} 
+	.app_css .case_list{
+		padding-top: 50px !important;
+		height: 100% !important;
+		padding-bottom: 50px !important;
+	}
+	.app_css .case_list_ul li{
+		width: 100% !important;
+		height: 600px !important;
+	}
+	.app_css .case_list_img{
+		height: 370px !important;
+	}
+	.app_css .case_list_ul li{
+		display: none !important;
+	}
+	.app_css .case_list_ul li:first-child{
+		display: block !important;
+	}
+	.app_bottom {
+		display: block !important;
+	}
+	/* 论坛 */
+	.app_css .app{
+		display: block !important;
+	}
+	.app_css .pc{
+		display: none !important;
+	}
+	.forum {
+		width: 100%;
+		height: 100% !important;
+		padding-bottom: 20px;
+	}
+	.forum ul li{
+		width: 165px !important;
+		margin-right: 10px !important;
+		margin-top: 10px;
+		height: 190px !important;
+	}
+	.forum ul li:nth-child(2n){
+		margin-right: 0 !important;
+		float: right !important;
+	}
+	.project_list ul li{
+		width: 170px !important;
+		height: 100% !important;
+	}
+	.project_list.active{
+		display: block !important;
+	}
+	.project_list.active ul li{
+		height: 200px !important;
+		width: 165px !important;
+		margin-bottom: 20px !important;
+	}
+	 .boxlbox .boxlb_text{
+		width: 45px !important;
+	}
+	/* .project_list.active ul li img{
+		height: 100% !important;
+	} */
+	.project_list ul li:nth-child(2n){
+		margin-right: 0 !important;
+	}
+	.project_list {
+		padding-left: 0 !important;
+	}
+	.on1 {
+		display: none;
+	}
+	.on{
+		display: block !important;
+		margin-bottom: 0px !important;
+		margin-top: 0px !important;
+	}
+	.app_page{
+		display: none;
+	}
+	.app_page1 {
+		display: block !important;
+	}
+	.goodDetails_name_img {
+		width: 100% !important;
+		height: 190px !important;
+	}
+	.list_btn {
+		display: none;
+	}
+	.exhibition_list {
+		width: 100%;
+		float: none !important;
+	}
+	.little_img{
+		width: 100% !important;
+		height: 80px !important;
+	}
+	.little_img ul{
+		width: 100% !important;
+		margin: 0 !important;
+		height: 100% !important;
+	}
+	.little_img ul li{
+		width: 52px !important;
+		margin-left: 0 !important;
+		margin-right: 12px;
+		height: 58px !important;
+	}
+	.little_img ul li:nth-child(5){
+		margin-right: 0;
+	}
+	.little_img ul li img{
+		width: 100% !important;
+		height: 100% !important;
+	}
+	.design {
+		float: none !important;
+	}
+	.exhibition {
+		height: 100% !important;
+		padding-bottom: 20px;
+	}
+	.design {
+		margin-top: 10px;
+		width: 100% !important;
+	}
+	.design_make_inp input{
+		width: 100% !important;
+		font-size: 16px;
+	}
+	.submit{
+		font-size: 16px;
+	}
+	.introduce .tab-tilte li{
+		width: 90px !important;
+		margin-right: 10px !important;
+	}
+	.introduce{
+		margin-top: 50px !important;
+		margin-bottom: 0 !important;
+	}
+	.fabulous img{
+		margin-right: 5px !important;
+		margin-bottom: 0 !important;
+	}
+	.list1 {
+		height: 100% !important;
+		padding-bottom: 20px !important;
+		box-sizing: border-box;
+	}
+	.design_list .overflow1{
+		width: 100% !important;
+	}
+	.my_publish textarea{
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+	.upload_list{
+		margin-left: 0 !important;
+	}
+	.el-upload--picture-card{
+		width: 93px !important;
+		height: 93px !important;
+		line-height: 93px !important;
+	}
+	.el-upload-list--picture-card .el-upload-list__item{
+		width: 93px !important;
+		height: 93px !important;
+		line-height: 93px !important;
+	}
+	.comment_img li{
+		width: 75px !important;
+		margin-right: 13px !important;
+	}
+	.comment_img li:nth-child(3){
+		margin-right: 0 !important;
+	}
+	.comment_img {
+		padding-right: 0 !important;
+	}
+	.list2 .publish{
+		margin-bottom: 50px !important;
+	}
+	.about_img{
+		padding: 0 20px;
+		box-sizing: border-box;
+		height: 190px !important;
+	}
+	.about_back_img{
+		display: none;
+	}
+	.about_text {
+		margin-top: 60px !important;
+	}
+	.about_exh{
+		margin-top: 40px !important;
+	}
+	.about_culture{
+		display: none;
+	}
+	.about_exh_text{
+		width: 100% !important;
+		height: 100% !important;
+		padding-top: 0 !important;
+		padding-bottom: 20px !important;
+	}
+	.about_exh_top{
+		margin-top: 0 !important;
+	}
+	.about_title {
+		margin-top: 50px !important;
+	}
+	.product_title, u{
+		font-size: 30px !important;
+	}
+	.about_exh_text div{
+		font-size: 16px;
+		line-height: 22px !important;
+	}
+	.about_list_title ul {
+		margin-left: 245px;
+		margin-top: 20px;
+	}
+	.about_culture1 .about_exh img{
+		height: 190px !important;
+		margin-top: 30px !important;
+	}
+	.about_list_title ul li{
+		float: none !important;
+		width: 220px !important;
+	}
+	.about_list_title{
+		margin-top: 40px !important;
+	}
+	.about_exh img{
+		width: 100% !important;
+		margin-bottom: 20px;
+	}
+	.growth ul li:nth-child(2n){
+		margin-right: 0 !important;
+	}
+	.growth ul li{
+		width: 335px !important;
+	}
+	.growth_text{
+		padding-bottom: 80px;
+		height: 100%;
+	}
+	.about_cultu_title{
+		margin-top: 70px !important;
+	}
+	.my_list .add_img{
+		padding-left: 0;
+		box-sizing: border-box;
+		height: 272px !important;
+	}
+	.my_list .add_img img{
+		width: 100% !important;
+		height: 100% !important;
+		padding: 0 !important;
+	}
+	.project_list .top_1{
+		margin-top: 4px!important;
+	}
+/* 改变 */
+	.naviga{
+		height: 70px !important;
+	}
+	
+	.naviga .logo{
+		width: 200px;
+		height: 70px;
+	}
+	.app_img_growth {
+		display: none;
+	}
+	.top_2{
+		margin-top: 2px;
+	}
+	/* 主页 */
+	.offer{
+		width: 100% !important;
+		height: 100% !important;
+		padding-bottom: 20px;
+		box-sizing: border-box;
+	}
+	.app_li{
+		height: 280px !important;
+		width: 165px !important;
+	}
+	.app_big_img {
+		height: 185px !important;
+	}
+	.app_list{
+		height: 95px !important;
+		padding: 10px 6px !important;
+	}
+	.app_list .font-24{
+		font-size: 22px;
+	}
+	.app_list .font-18{
+		font-size: 16px;
+	}
+	.app_list .margin-30-top{
+		margin-top: 20px;
+	}
+	.app_list .margin-30-top .font-24{
+		font-size: 16px;
+	}
+	.app_list .margin-30-top .font-18{
+		font-size: 14px;
+	}
+	.big_shot h5{
+		margin-top: 10px !important;
+		margin-bottom: 15px;
+	}
+	.app_big_item .product_btns p{
+		margin-top: 25px !important;
+	}
+	.app_big_item .product_btns{
+		margin-bottom: 0 !important;
+	}
+	.big_shot{
+		height: 100% !important;
+	}
+	.case_list_ul .overflow-1{
+		width: 305px;
+	}
+	.project_title {
+		display: none;
+	}
+	.project_title.app_project{
+		display: block !important;
+	}
+	.project_img img{
+		height: 130px !important;
+	}
+	.exhibition .iconfont{
+		font-size: 18px;
+	}
+	.exhibition .iconfont span{
+		font-size: 16px;
+		color: #666;
+	}
+	/* 我的 */
+	.my{
+		height: 190px !important;
+		padding: 15px 28px !important;
+		box-sizing: border-box;
+	}
+	.pc_my{
+		display: none;
+	}
+	.project_list{
+		margin-top: 0 !important;
+	}
+	.app_my{
+		display: block !important;
+	}
+	.about_culture1{
+		display: block !important; 
+	}
+	.business .busi_img{
+		height: 190px !important;
+	}
+	.title_list{
+		margin-top: 50px !important;
+	}
+	.busin_goods .alist{
+		margin: 0px !important;
+		float: right;
+	}
+	.about_culture1 .about_exh{
+		display: block !important; 
+	}
+	.about_exh{
+		display: none; 
+	}
+	.business_app{
+		display: block !important;
+	}
+	.business_product{
+		display: none;
+	}
+	.business_products{
+		display: block !important;
+	}
+	.about_exh_app{
+		display: block !important;
+	}
+	.title_list .runajian{
+		text-align: center;
+	}
+	.title_list .yanfa{
+		text-align: center;
+	}
+	.business_img {
+		width: 100% !important;
+		height: 190px !important;
+	}
+	.busin_software_title p{
+		font-size: 16px !important;
+		line-height: 22px;
+		text-indent:2em;
+	}
+	.business_product.product{
+		display: block !important;
+	}
+	.product_list{
+		display:none;
+	}
+	.busin_softwars{
+		display: block !important;
+	}
+	.busin_goods .displck{
+		display: none;
+	}
+	.busin_goods ul{
+		height: 100% !important; 
+	}
+	.busin_goods ul li{
+		width: 49% !important;
+		height: 200px !important;
+	}
+	.business_advert{
+		display: none;
+	}
+	.contact_map{
+		height: 350px !important;
+		margin-bottom: 0 !important;
+	}
+	.bm-view{
+		height: 350px !important;
+	}
+	.contact_img img{
+		height: 190px !important;
+	}
+	/* 详情 */
+	.product.list{
+		display: none;
+	}
+	.product.on{
+		display: block !important; 
+	}
+	.product.on .goodDetails_name_img img{
+		width: 100% !important;
+	}
+	.product.on .exhibition{
+		width: 100% !important;
+	}
+	.product.on .exhibition_list{
+		width: 100% !important;
+	}
+	.product.on .goodDetails_name_img{
+		height: 230px !important;
+	}
+	.display .content_list .tab-tilte li{
+		font-size: 16px !important;
+		width: 65px !important;
+	}
+	.tab_label{
+		display: none;
+	}
+	.tab_label.on{
+		display: block;
+	}
+	.tab_div_list .goods .goods_lsit{
+		width: 167px !important;
+		height: 100% !important;
+		background-color: #fff !important;
+		border: 1px solid #999999;
+		margin-left: 0px !important;
+		margin-bottom: 15px !important;
+	}
+	.tab_div_list .goods .goods_lsit:nth-child(2n){
+		float: right !important; 
+	}
+	.goods_lsit .overflow-1{
+		color: #666;
+	}
+	.goods_lsit{
+		display: none;
+	}
+	.goods_lsit.on{
+		display: block !important;
+	}
+	.turn_page.active{
+		display: none!important;
+	}
+	.turn_page{
+		display: none!important;
+	}
+	/*  */
+	.details{
+		display: none;
+	}
+	.details.on{
+		display: block !important;
+	}
+	.details.on .introduce_img{
+		width: 100%;
+		height: 300px;
+	}
+	.introduce_list{
+		width: 100% !important;
+		padding: 0px 0 !important;
+		margin-top: 20px !important;
+		background-color: #fff !important;
+		height: 110px !important;
+	}
+	.introduce_list .list{
+		margin-top: 10px !important;
+	}
+	.introduce_list .btn{
+		margin-top: 20px !important;
+	}
+	.personal_list ul li{
+		margin-left: 0 !important;
+		width: 160px !important;
+		height: 100% !important;
+		margin-top: 0 !important;
+		margin-bottom: 10px !important;
+	}
+	.personal_list ul li:nth-child(2n){
+		float: right !important;
+	}
+	.personal_list {
+		height: 100% !important;
+		border: none !important;
+	}
+	.personal_list_img{
+		height: 155px !important;
+	}
+	.pop_tab{
+		width: 100% !important;
+	}
+	.introduce{
+		height: 100% !important;
+	}
+	.details.on .introduce{
+		height: 430px !important;
+	}
+	.offer_list_text{
+		margin-top: 10px !important;
+	}
+	.offer_list_btn{
+		margin-top: 0 !important;
+	}
+	.beian{
+		display: block !important; 
+	}
+	.login {
+		display: none;
+	}
+	.login.on {
+		display: block !important; 
+		/* padding-bottom: 75px; */
+		height: 667px;
+		box-sizing: border-box;
+	}
+	.login_content{
+		position: initial !important;
+	}
+	.tab-content .list{
+		width: 100% !important;
+		/* border: 1px solid #F1F1F1; */
+	}
+	.tab-content .list1 input{
+		width: 100% !important;
+		font-size: 16px !important;
+	}
+	.login_inte{
+		width: 100% !important;
+	}
+	.list1 button{
+		width: 100% !important;
+		font-size: 16px !important;
+		line-height: 18px !important;
+	}
+	.login.on .register{
+		position: initial !important;
+	}
+	.register-list{
+		width: 100% !important;
+	}
+	.register_title{
+		width: 100% !important;
+		margin-top: 0 !important;
+	}
+	.register_content_list input{
+		width: 100% !important;
+		font-size: 16px !important;
+		box-sizing: border-box !important;
+		border: 1px solid #DBDBDB !important;
+		background-color: #F1F1F1 !important;
+	}
+	.register_content_list{
+		width: 100% !important;
+	}
+	.register_content{
+		background-color: #fff !important;
+	}
+	.register_content_list button{
+		width: 100% !important;
+		font-size: 16px !important;
+		border: 1px solid #DBDBDB !important;
+		background-color: #F1F1F1 !important;
+	}
+	.register-list-title img{
+		width: 90px !important;
+		height: 35px !important;
+	}
+	.case_list_text{
+		padding: 15px 10px !important;
+	}
+	.case_list_text p{
+		font-size: 28x !important;
+		color: #000 !important;
+	}
+	.case_list_text .iconfont{
+		font-size: 16px !important;
+	}
+	.case_list_text .text{
+		font-size: 16px !important;
+	}
+	.content_list ul li{
+		font-size: 12px;
+	}
+	.project_list.active ul li{
+		border: 1px solid #F1F1F1;
+	}
+	.details.on .introduce{
+		height: 430px !important;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	
+	.content{
+		width: 100% !important;
+		margin: 0;
+		padding: 0 10px;
+		box-sizing: border-box !important;
+	}
+	.banner_list .app{
+		display: block !important;
+	}
+	.banner_list .pc{
+		display: none !important;
+	}
+	/* 头部导航 */
+	.navigation{
+		display: none !important; 
+	}
+	.app_nav {
+		display: block !important;
+	}
+	/* 底部导航 */
+	.bottom_list{
+		display: none;
+	}
+	/* 报价 */
+	.offer_list_cont{
+		display: none !important;
+	}
+	.offer_list{
+		margin-left: 0 !important;
+		width: 100% !important;
+		top: 0 !important;
+		position: initial !important;
+		padding: 0 !important;
+		background: #fff !important;
+	}
+	.offer_list_text {
+		width: 100% !important;
+		margin-left: 0 !important;
+		background: #fff !important;
+		padding: 0 !important;
+		height: 100% !important;
+	}
+	.offer_list{
+		height: 100% !important;
+	}
+	.houses input{
+		margin-left: 0 !important;
+		width: 150px !important;
+		border-radius: 10px;
+		margin-right: 10px !important;
+		padding-left: 10px ;
+		box-sizing: border-box;
+	}
+	.offer_list_btn{
+		float: none !important;
+	}
+	.offer_list_btn span{
+		margin-top: 15px;
+		margin-left: 80px;
+		border-radius: 10px !important;
+	}
+	.houses input:last-child{
+		margin-right: 0 !important;
+	}
+	.house_title{
+		display: block !important;
+		padding-left: 4px;
+		text-align: initial !important; 
+	}
+	.el-select{
+		margin-left: 0 !important;
+		width: 110px !important;
+	}
+	.house input{
+		margin-left: 0px !important;
+	}
+	/* 产品展示 */
+	.product_display{
+		margin-top: 30px !important;
+	}
+	.tab-tilte{
+		width: 100% !important;
+		border-top: 1px solid #f1f1f1;
+	}
+	.grid-content1 , .grid-content2 , .grid-content3 , .grid-content4{
+		display: none !important; 
+	}
+	.app_css .grid-content{
+		width: 100% !important;
+		height: 190px !important;
+	}
+	.app_css .tab-content .tab-div .title {
+		display: block !important;
+	}
+	.app_css .tab-content .tab-div{
+		height: 310px !important;
+	}
+	.app_css .tab-content .tab-div .el-col-8{
+		width: 100% !important;
+	}
+	.app_css .product_btn{
+		margin-bottom: 50px !important;
+	}
+	.project_list.on{
+		display: none !important;
+	}
+	.app_css .big_shot_item{
+		display: none !important; 
+	}
+	.app_css .app_big_item{
+		display: block !important;
+		height: 100% !important;
+		padding-bottom: 20px;
+	} 
+	.app_css .case_list{
+		padding-top: 50px !important;
+		height: 100% !important;
+		padding-bottom: 50px !important;
+	}
+	.app_css .case_list_ul li{
+		width: 100% !important;
+		height: 600px !important;
+	}
+	.app_css .case_list_img{
+		height: 370px !important;
+	}
+	.app_css .case_list_ul li{
+		display: none !important;
+	}
+	.app_css .case_list_ul li:first-child{
+		display: block !important;
+	}
+	.app_bottom {
+		display: block !important;
+	}
+	/* 论坛 */
+	.app_css .app{
+		display: block !important;
+	}
+	.app_css .pc{
+		display: none !important;
+	}
+	.forum {
+		width: 100%;
+		height: 100% !important;
+		padding-bottom: 20px;
+	}
+	.forum ul li{
+		width: 165px !important;
+		margin-right: 10px !important;
+		margin-top: 10px;
+		height: 190px !important;
+	}
+	.forum ul li:nth-child(2n){
+		margin-right: 0 !important;
+		float: right !important;
+	}
+	.project_list ul li{
+		width: 161px !important;
+		height: 100% !important;
+	}
+	.project_list.active{
+		display: block !important;
+	}
+	.project_list.active ul li{
+		height: 200px !important;
+		width: 165px !important;
+		margin-bottom: 20px !important;
+	}
+	 .boxlbox .boxlb_text{
+		width: 45px !important;
+	}
+	/* .project_list.active ul li img{
+		height: 100% !important;
+	} */
+	.project_list ul li:nth-child(2n){
+		margin-right: 0 !important;
+	}
+	.project_list {
+		padding-left: 0 !important;
+	}
+	.on1 {
+		display: none;
+	}
+	.on{
+		display: block !important;
+		margin-bottom: 0px !important;
+		margin-top: 0px !important;
+	}
+	.app_page{
+		display: none;
+	}
+	.app_page1 {
+		display: block !important;
+	}
+	.goodDetails_name_img {
+		width: 100% !important;
+		height: 190px !important;
+	}
+	.list_btn {
+		display: none;
+	}
+	.exhibition_list {
+		width: 100%;
+		float: none !important;
+	}
+	.little_img{
+		width: 100% !important;
+		height: 80px !important;
+	}
+	.little_img ul{
+		width: 100% !important;
+		margin: 0 !important;
+		height: 100% !important;
+	}
+	.little_img ul li{
+		width: 52px !important;
+		margin-left: 0 !important;
+		margin-right: 12px;
+		height: 58px !important;
+	}
+	.little_img ul li:nth-child(5){
+		margin-right: 0;
+	}
+	.little_img ul li img{
+		width: 100% !important;
+		height: 100% !important;
+	}
+	.design {
+		float: none !important;
+	}
+	.exhibition {
+		height: 100% !important;
+		padding-bottom: 20px;
+	}
+	.design {
+		margin-top: 10px;
+		width: 100% !important;
+	}
+	.design_make_inp input{
+		width: 100% !important;
+		font-size: 16px;
+	}
+	.submit{
+		font-size: 16px;
+	}
+	.introduce .tab-tilte li{
+		width: 90px !important;
+		margin-right: 10px !important;
+	}
+	.introduce{
+		margin-top: 50px !important;
+		margin-bottom: 0 !important;
+	}
+	.fabulous img{
+		margin-right: 5px !important;
+		margin-bottom: 0 !important;
+	}
+	.list1 {
+		height: 100% !important;
+		padding-bottom: 20px !important;
+		box-sizing: border-box;
+	}
+	.design_list .overflow1{
+		width: 100% !important;
+	}
+	.my_publish textarea{
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+	.upload_list{
+		margin-left: 0 !important;
+	}
+	.el-upload--picture-card{
+		width: 93px !important;
+		height: 93px !important;
+		line-height: 93px !important;
+	}
+	.el-upload-list--picture-card .el-upload-list__item{
+		width: 93px !important;
+		height: 93px !important;
+		line-height: 93px !important;
+	}
+	.comment_img li{
+		width: 75px !important;
+		margin-right: 13px !important;
+	}
+	.comment_img li:nth-child(3){
+		margin-right: 0 !important;
+	}
+	.comment_img {
+		padding-right: 0 !important;
+	}
+	.list2 .publish{
+		margin-bottom: 50px !important;
+	}
+	.about_img{
+		padding: 0 20px;
+		box-sizing: border-box;
+		height: 190px !important;
+	}
+	.about_back_img{
+		display: none;
+	}
+	.about_text {
+		margin-top: 60px !important;
+	}
+	.about_exh{
+		margin-top: 40px !important;
+	}
+	.about_culture{
+		display: none;
+	}
+	.about_exh_text{
+		width: 100% !important;
+		height: 100% !important;
+		padding-top: 0 !important;
+		padding-bottom: 20px !important;
+	}
+	.about_exh_top{
+		margin-top: 0 !important;
+	}
+	.about_title {
+		margin-top: 50px !important;
+	}
+	.product_title, u{
+		font-size: 30px !important;
+	}
+	.about_exh_text div{
+		font-size: 16px;
+		line-height: 22px !important;
+	}
+	.about_list_title ul {
+		margin-left: 245px;
+		margin-top: 20px;
+	}
+	.about_culture1 .about_exh img{
+		height: 190px !important;
+		margin-top: 30px !important;
+	}
+	.about_list_title ul li{
+		float: none !important;
+		width: 220px !important;
+	}
+	.about_list_title{
+		margin-top: 40px !important;
+	}
+	.about_exh img{
+		width: 100% !important;
+		margin-bottom: 20px;
+	}
+	.growth ul li:nth-child(2n){
+		margin-right: 0 !important;
+	}
+	.growth ul li{
+		width: 335px !important;
+	}
+	.growth_text{
+		padding-bottom: 80px;
+		height: 100%;
+	}
+	.about_cultu_title{
+		margin-top: 70px !important;
+	}
+	.my_list .add_img{
+		padding-left: 0;
+		box-sizing: border-box;
+		height: 272px !important;
+	}
+	.my_list .add_img img{
+		width: 100% !important;
+		height: 100% !important;
+		padding: 0 !important;
+	}
+	.project_list .top_1{
+		margin-top: 4px!important;
+	}
+/* 改变 */
+	.naviga{
+		height: 70px !important;
+	}
+	
+	.naviga .logo{
+		width: 200px;
+		height: 70px;
+	}
+	.app_img_growth {
+		display: none;
+	}
+	.top_2{
+		margin-top: 2px;
+	}
+	/* 主页 */
+	.offer{
+		width: 100% !important;
+		height: 100% !important;
+		padding-bottom: 20px;
+		box-sizing: border-box;
+	}
+	.app_li{
+		height: 280px !important;
+		width: 165px !important;
+	}
+	.app_big_img {
+		height: 185px !important;
+	}
+	.app_list{
+		height: 95px !important;
+		padding: 10px 6px !important;
+	}
+	.app_list .font-24{
+		font-size: 22px;
+	}
+	.app_list .font-18{
+		font-size: 16px;
+	}
+	.app_list .margin-30-top{
+		margin-top: 20px;
+	}
+	.app_list .margin-30-top .font-24{
+		font-size: 16px;
+	}
+	.app_list .margin-30-top .font-18{
+		font-size: 14px;
+	}
+	.big_shot h5{
+		margin-top: 10px !important;
+		margin-bottom: 15px;
+	}
+	.app_big_item .product_btns p{
+		margin-top: 25px !important;
+	}
+	.app_big_item .product_btns{
+		margin-bottom: 0 !important;
+	}
+	.big_shot{
+		height: 100% !important;
+	}
+	.case_list_ul .overflow-1{
+		width: 305px;
+	}
+	.project_title {
+		display: none;
+	}
+	.project_title.app_project{
+		display: block !important;
+	}
+	.project_img img{
+		height: 130px !important;
+	}
+	.exhibition .iconfont{
+		font-size: 18px;
+	}
+	.exhibition .iconfont span{
+		font-size: 16px;
+		color: #666;
+	}
+	/* 我的 */
+	.my{
+		height: 190px !important;
+		padding: 15px 28px !important;
+		box-sizing: border-box;
+	}
+	.pc_my{
+		display: none;
+	}
+	.project_list{
+		margin-top: 0 !important;
+	}
+	.app_my{
+		display: block !important;
+	}
+	.about_culture1{
+		display: block !important; 
+	}
+	.business .busi_img{
+		height: 190px !important;
+	}
+	.title_list{
+		margin-top: 50px !important;
+	}
+	.busin_goods .alist{
+		margin: 0px !important;
+		float: right;
+	}
+	.about_culture1 .about_exh{
+		display: block !important; 
+	}
+	.about_exh{
+		display: none; 
+	}
+	.business_app{
+		display: block !important;
+	}
+	.business_product{
+		display: none;
+	}
+	.business_products{
+		display: block !important;
+	}
+	.about_exh_app{
+		display: block !important;
+	}
+	.title_list .runajian{
+		text-align: center;
+	}
+	.title_list .yanfa{
+		text-align: center;
+	}
+	.business_img {
+		width: 100% !important;
+		height: 190px !important;
+	}
+	.busin_software_title p{
+		font-size: 16px !important;
+		line-height: 22px;
+		text-indent:2em;
+	}
+	.business_product.product{
+		display: block !important;
+	}
+	.product_list{
+		display:none;
+	}
+	.busin_softwars{
+		display: block !important;
+	}
+	.busin_goods .displck{
+		display: none;
+	}
+	.busin_goods ul{
+		height: 100% !important; 
+	}
+	.busin_goods ul li{
+		width: 49% !important;
+		height: 200px !important;
+	}
+	.business_advert{
+		display: none;
+	}
+	.contact_map{
+		height: 350px !important;
+		margin-bottom: 0 !important;
+	}
+	.bm-view{
+		height: 350px !important;
+	}
+	.contact_img img{
+		height: 190px !important;
+	}
+	/* 详情 */
+	.product.list{
+		display: none;
+	}
+	.product.on{
+		display: block !important; 
+	}
+	.product.on .goodDetails_name_img img{
+		width: 100% !important;
+	}
+	.product.on .exhibition{
+		width: 100% !important;
+	}
+	.product.on .exhibition_list{
+		width: 100% !important;
+	}
+	.product.on .goodDetails_name_img{
+		height: 230px !important;
+	}
+	.display .content_list .tab-tilte li{
+		font-size: 16px !important;
+		width: 65px !important;
+	}
+	.tab_label{
+		display: none;
+	}
+	.tab_label.on{
+		display: block;
+	}
+	.tab_div_list .goods .goods_lsit{
+		width: 167px !important;
+		height: 100% !important;
+		background-color: #fff !important;
+		border: 1px solid #999999;
+		margin-left: 0px !important;
+		margin-bottom: 15px !important;
+	}
+	.tab_div_list .goods .goods_lsit:nth-child(2n){
+		float: right !important; 
+	}
+	.goods_lsit .overflow-1{
+		color: #666;
+	}
+	.goods_lsit{
+		display: none;
+	}
+	.goods_lsit.on{
+		display: block !important;
+	}
+	.turn_page.active{
+		display: none!important;
+	}
+	.turn_page{
+		display: none!important;
+	}
+	/*  */
+	.details{
+		display: none;
+	}
+	.details.on{
+		display: block !important;
+	}
+	.details.on .introduce_img{
+		width: 100%;
+		height: 300px;
+	}
+	.introduce_list{
+		width: 100% !important;
+		padding: 0px 0 !important;
+		margin-top: 20px !important;
+		background-color: #fff !important;
+		height: 110px !important;
+	}
+	.introduce_list .list{
+		margin-top: 10px !important;
+	}
+	.introduce_list .btn{
+		margin-top: 20px !important;
+	}
+	.personal_list ul li{
+		margin-left: 0 !important;
+		width: 160px !important;
+		height: 100% !important;
+		margin-top: 0 !important;
+		margin-bottom: 10px !important;
+	}
+	.personal_list ul li:nth-child(2n){
+		float: right !important;
+	}
+	.personal_list {
+		height: 100% !important;
+		border: none !important;
+	}
+	.personal_list_img{
+		height: 155px !important;
+	}
+	.pop_tab{
+		width: 100% !important;
+	}
+	.introduce{
+		height: 100% !important;
+	}
+	/* .introduce{
+		height: 430px !important;
+	} */
+	.offer_list_text{
+		margin-top: 10px !important;
+	}
+	.offer_list_btn{
+		margin-top: 0 !important;
+	}
+	.beian{
+		display: block !important; 
+	}
+	.login {
+		display: none;
+	}
+	.login.on {
+		display: block !important; 
+		/* padding-bottom: 75px; */
+		height: 667px;
+		box-sizing: border-box;
+	}
+	.login_content{
+		position: initial !important;
+	}
+	.tab-content .list{
+		width: 100% !important;
+		/* border: 1px solid #F1F1F1; */
+	}
+	.tab-content .list1 input{
+		width: 100% !important;
+		font-size: 16px !important;
+	}
+	.login_inte{
+		width: 100% !important;
+	}
+	.list1 button{
+		width: 100% !important;
+		font-size: 16px !important;
+		line-height: 18px !important;
+	}
+	.login.on .register{
+		position: initial !important;
+	}
+	.register-list{
+		width: 100% !important;
+	}
+	.register_title{
+		width: 100% !important;
+		margin-top: 0 !important;
+	}
+	.register_content_list input{
+		width: 100% !important;
+		font-size: 16px !important;
+		box-sizing: border-box !important;
+		border: 1px solid #DBDBDB !important;
+		background-color: #F1F1F1 !important;
+	}
+	.register_content_list{
+		width: 100% !important;
+	}
+	.register_content{
+		background-color: #fff !important;
+	}
+	.register_content_list button{
+		width: 100% !important;
+		font-size: 16px !important;
+		border: 1px solid #DBDBDB !important;
+		background-color: #F1F1F1 !important;
+	}
+	.register-list-title img{
+		width: 90px !important;
+		height: 35px !important;
+	}
+	.case_list_text{
+		padding: 15px 10px !important;
+	}
+	.case_list_text p{
+		font-size: 28x !important;
+		color: #000 !important;
+	}
+	.case_list_text .iconfont{
+		font-size: 16px !important;
+	}
+	.case_list_text .text{
+		font-size: 16px !important;
+	}
+	.content_list ul li{
+		font-size: 12px;
+	}
+	.project_list.active ul li{
+		border: 1px solid #F1F1F1;
+	}
+}

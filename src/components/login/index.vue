@@ -1,71 +1,129 @@
 <template>
-	<div class="login">
-		<div class="back">
-			<img src="../../img/bgck.jpg" />
-		</div>
-		<div class="login_content">
-			<div class="content">
-				<div class="logo">
-					<img src="../../img/logo.png">
-				</div>
-				<!-- 登录界面 -->
-				<div class="login_inte">
-					<div class="login-title">
+	<div>
+		<div class="login">
+			<div class="back">
+				<img src="../../img/bgck.jpg" />
+			</div>
+			<div class="login_content">
+				<div class="content">
+					<div class="logo">
 						<img src="../../img/logo.png">
-						<p class="margin-20-top font-18">氏京品-装修行业的领先者，带你感受精品的魅力！</p>
 					</div>
-					<!-- tab切换 -->
-					<div class="login-tab clearfix">
-						 <ul class="tab-tilte">
-							<li @click="cur=0" :class="{active:cur==0}">密码登录</li>
-							<li @click="cur=1" :class="{active:cur==1}">短信登录</li>
-						</ul>
-						<div class="tab-content">
-							<div class="list list1" v-show="cur==0">
-								<div>
-									<input type="text" placeholder="账号"/>
-									<input type="password" placeholder="密码"/>
-									<button>登录</button>
+					<!-- 登录界面 -->
+					<div class="login_inte">
+						<div class="login-title">
+							<img src="../../img/logo.png">
+							<p class="margin-20-top font-18">氏京品-装修行业的领先者，带你感受精品的魅力！</p>
+						</div>
+						<!-- tab切换 -->
+						<div class="login-tab clearfix">
+							 <ul class="tab-tilte">
+								<li @click="cur=0" :class="{active:cur==0}">密码登录</li>
+								<li @click="cur=1" :class="{active:cur==1}">短信登录</li>
+							</ul>
+							<div class="tab-content">
+								<div class="list list1" v-show="cur==0">
+									<div>
+										<input type="text" placeholder="账号"/>
+										<input type="password" placeholder="密码"/>
+										<button>登录</button>
+									</div>
+									<div class="text-right margin-20-top">
+										<span>忘记密码</span>
+										<span class="margin-10">|</span>
+										<router-link to="/register" style="color: #000000;">注册</router-link>
+									</div>
 								</div>
-								<div class="text-right margin-20-top">
-									<span>忘记密码</span>
-									<span class="margin-10">|</span>
-									<router-link to="/register" style="color: #000000;">注册</router-link>
+								<div class="list list1" v-show="cur==1">
+									<div>
+										<input type="text" placeholder="手机号"/>
+										<div class="clearfix">
+											<input class="fl" style="width: 213px; height: 38px;" type="password" placeholder="请输入验证码"/>
+											<button style="width: 148px; height: 38px; margin-left: 15px;" class="fl" >发送验证码</button>
+										</div>
+										<button>登录</button>
+									</div>
+									<div class="text-right margin-20-top">
+										<span>忘记密码</span>
+										<span class="margin-10">|</span>
+										<router-link to="/register" style="color: #000000;">注册</router-link>
+									</div>
 								</div>
 							</div>
-							<div class="list list1" v-show="cur==1">
-								<div>
-									<input type="text" placeholder="手机号"/>
-									<div class="clearfix">
-										<input class="fl" style="width: 213px; height: 38px;" type="password" placeholder="请输入验证码"/>
-										<button style="width: 148px; height: 38px; margin-left: 15px;" class="fl" >发送验证码</button>
+						</div>
+						
+					</div>
+					<div class="text-center" style="margin-top: 50px;">
+						<span class="font-20">备案号备案号备案号备案号备案号备案号备案号备案号备案号备案号备案号备案号</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="login on">
+			<div class="login_content">
+				<div class="content">
+					<!-- 登录界面 -->
+					<div class="login_inte">
+						<div class="login-title">
+							<img src="../../img/logo.png">
+							<p class="margin-15-top font-14">氏京品-装修行业的领先者，带你感受精品的魅力！</p>
+						</div>
+						<!-- tab切换 -->
+						<div class="login-tab clearfix">
+							 <ul class="tab-tilte">
+								<li @click="cur=0" class="font-16" :class="{active:cur==0}">密码登录</li>
+								<li @click="cur=1" class="font-16" :class="{active:cur==1}">短信登录</li>
+							</ul>
+							<div class="tab-content">
+								<div class="list list1" v-show="cur==0">
+									<div>
+										<input type="text" placeholder="账号"/>
+										<input type="password" placeholder="密码"/>
+										<router-link to="/my"><button>登录</button></router-link>
 									</div>
-									<button>登录</button>
+									<div class="text-right margin-20-top">
+										<span style="font-size: 16px;">忘记密码</span>
+										<span class="margin-10">|</span>
+										<router-link to="/register" style="color: #000000; font-size: 16px;">注册</router-link>
+									</div>
 								</div>
-								<div class="text-right margin-20-top">
-									<span>忘记密码</span>
-									<span class="margin-10">|</span>
-									<router-link to="/register" style="color: #000000;">注册</router-link>
+								<div class="list list1" v-show="cur==1">
+									<div>
+										<input type="text" placeholder="手机号"/>
+										<div class="clearfix">
+											<input class="fl" style="width: 164px !important; height: 38px;" type="password" placeholder="请输入验证码"/>
+											<button style="width: 125px !important; height: 38px; margin-left: 15px;" class="fl" >发送验证码</button>
+										</div>
+										<button>登录</button>
+									</div>
+									<div class="text-right margin-20-top">
+										<span style="font-size: 16px;">忘记密码</span>
+										<span class="margin-10">|</span>
+										<router-link to="/register" style="color: #000000; font-size: 16px;">注册</router-link>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					
-				</div>
-				<div class="text-center" style="margin-top: 50px;">
-					<span class="font-20">备案号备案号备案号备案号备案号备案号备案号备案号备案号备案号备案号备案号</span>
 				</div>
 			</div>
+			<Bottom></Bottom>
 		</div>
+		
 	</div>
 </template>
 
 <script>
+import Bottom from '../assembly/bottom.vue'
 export default{
 	data () {
 		return {
 			cur:0
 		}
+	},
+	components:{
+		Bottom
 	}
 }
 </script>
@@ -157,5 +215,12 @@ export default{
 	color: #000;
 	margin-bottom: 20px;
 	box-sizing: border-box;
+}
+.login.on{
+	display: none;
+}
+.beian{
+	display: none !important;
+	margin-top: 30px !important;
 }
 </style>

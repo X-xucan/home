@@ -2,7 +2,7 @@
 	<div>
 		<Top></Top>
 		<div class="content">
-			<div class="my">
+			<div class="my pc_my">
 				<div class="clearfix">
 					<div class="my_haed fl">
 						<img src="../../img/my.jpg" />
@@ -27,47 +27,114 @@
 							作品&nbsp;&nbsp;&nbsp;1454</span>
 				</div>
 			</div>
+			<div class="app_my">
+				<div class="clearfix">
+					<div class=" app_my_list"></div>
+					<div class="clearfix app_my_content">
+						<ul>
+							<li  class="fl app_my_works">作品12</li>
+							<li  class="my_haed fl"><img src="../../img/my.jpg" /></li>
+							<li  class="app_my_fans fl">粉丝 12</li>
+						</ul>
+					</div>
+					<div class="my_title fl">
+						<p class="font-30 margin-10-top">叮当猫</p>
+						<p class="font-16 margin-20-top clearfix text-center">
+							<span class="iconfont icon-nan "></span>
+							<span class="margin-5-left">21</span>
+							<span class=" margin-5-left">|</span>
+							<span class="margin-5-left">软件设计师</span>
+						</p>
+						<p class="font-18 margin-25-top">这个人很懒没有写个性签名~</p>
+					</div>
+				</div>
+			</div>
+			
 			<div class="my_list">
 				<div class="project_list">
 						<ul class="clearfix">
-								<li class="add_img">
-									<img  src="../../img/add.png"/>
-								</li>
-								<li :key="index"  v-for="(item,index) in Lists[cIndex].goods.slice((currentPage- 1)*pagesize,currentPage*pagesize)">
-									<div class="project_img">
-										<img :src="item.img" />
-									</div>
-									<div class="project_cont">
-										<p class="font-16 text-black">{{item.title}}</p>
-										<div class="margin-15-top text-gray clearfix">
-											<div class="fl clearfix">
-												<span class="iconfont icon-yanjing fl"></span>
-												<span class="fl margin-5-left">{{item.see}}</span>
+								<div  class="app_page" >
+									<li class="add_img">
+										<img  src="../../img/add.png"/>
+									</li>
+									<router-link to="/fdetails">
+										<li :key="index"v-for="(item,index) in Lists[cIndex].goods.slice((currentPage- 1)*pagesize,currentPage*pagesize)">
+											<div class="project_img">
+												<img :src="item.img" />
 											</div>
-											
-											<div class="fl clearfix">
-												<span class="iconfont icon-xihuan margin-20-left fl"></span>
-												<span class="fl margin-5-left">{{item.like}}</span>
+											<div class="project_cont">
+												<p class="font-16 text-black">{{item.title}}</p>
+												<div class="margin-15-top text-gray clearfix">
+													<div class="fl clearfix">
+														<span class="iconfont icon-yanjing fl"></span>
+														<span class="fl margin-5-left">{{item.see}}</span>
+													</div>
+													
+													<div class="fl clearfix">
+														<span class="iconfont icon-xihuan margin-20-left fl"></span>
+														<span class="fl margin-5-left">{{item.like}}</span>
+													</div>
+													
+													<div class="fl clearfix">
+														<span class="iconfont icon-xinxi margin-20-left fl"></span>
+														<span class="fl margin-5-left">{{item.info}}</span>
+													</div>
+												</div>
 											</div>
-											
-											<div class="fl clearfix">
-												<span class="iconfont icon-xinxi margin-20-left fl"></span>
-												<span class="fl margin-5-left">{{item.info}}</span>
+											<div class="project_name clearfix">
+												<div class="project_name_title fl">
+													<img :src="item.head" />
+												</div>
+												<p class="fl margin-5-top margin-5-left text-black">{{item.name}}</p>
+												<p class="fr margin-5-top text-gray">{{item.data}}</p>
+											</div>
+										</li>
+										
+									</router-link>
+								</div>
+								
+								<div class="app_page1" >
+									<router-link to="/fdetails">
+									<li class="add_img">
+										<img  src="../../img/add.png"/>
+									</li>
+									<li :key="index" v-for="(item,index) in Lists[cIndexs].goods">
+										<div class="project_img">
+											<img :src="item.img" />
+										</div>
+										<div class="project_cont">
+											<p class="font-16 text-black">{{item.title}}</p>
+											<div class="margin-15-top text-gray clearfix">
+												<div class="fl clearfix">
+													<span class="iconfont icon-yanjing fl"></span>
+													<span class="fl margin-5-left top_1">{{item.see}}</span>
+												</div>
+												
+												<div class="fl clearfix">
+													<span class="iconfont icon-xihuan margin-20-left fl"></span>
+													<span class="fl margin-5-left top_1">{{item.like}}</span>
+												</div>
+												
+												<div class="fl clearfix">
+													<span class="iconfont icon-xinxi margin-20-left fl"></span>
+													<span class="fl margin-5-left top_1">{{item.info}}</span>
+												</div>
 											</div>
 										</div>
-									</div>
-									<div class="project_name clearfix">
-										<div class="project_name_title fl">
-											<img :src="item.head" />
+										<div class="project_name clearfix">
+											<div class="project_name_title fl">
+												<img :src="item.head" />
+											</div>
+											<p class="fl margin-5-top margin-5-left text-black">{{item.name}}</p>
+											<p class="fr margin-5-top text-gray">{{item.data}}</p>
 										</div>
-										<p class="fl margin-5-top margin-5-left text-black">{{item.name}}</p>
-										<p class="fr margin-5-top text-gray">{{item.data}}</p>
-									</div>
-								</li>
+									</li>
+									</router-link>	
+								</div>						
 						</ul>
 				</div>
 				<!-- 分页  -->
-				<div class="turn_page">
+				<div class="turn_page on1">
 					<el-pagination
 						layout="prev, pager, next"
 						:page-size="pagesize"
@@ -76,8 +143,7 @@
 						 :pager-count="5"
 						 :total="Lists[cIndex].goods.length">
 					</el-pagination>
-				</div>
-							
+				</div>		
 			</div>
 		</div>
 		<Bottom></Bottom>
@@ -96,8 +162,10 @@ export default {
 			Lists: list,
 			appearCar: false,
 			info:[],//数据
-			pagesize:11,//每页多少数据
+			pagesize: 11,//每页多少数据
 			currentPage:1  ,
+			pagesizes: 3,
+			cIndexs: 0
 		}
 	},
 	components:{
@@ -122,6 +190,7 @@ export default {
 </script>
 
 <style>
+@import url("./my.css");
 .add_img img{
 	width: 260px;
 	height: 355px;

@@ -14,6 +14,7 @@ import Map from '../components/assembly/map.vue'
 import Forum from '../components/forum/index.vue'
 import Fdetails from '../components/forum/Fdetails.vue'
 import My from '../components/my/index.vue'
+import Design from '../components/design/index.vue'
 
 Vue.use(Router)
 
@@ -75,5 +76,9 @@ export default new Router({
 	 path: '/my',
 	 name: 'My',
 	 component: My 
+  }, {
+	 path: '/design',
+	 name: 'Design',
+	 component: Design 
   }]
 })

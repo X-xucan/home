@@ -11,6 +11,7 @@ import VueRouter from 'vue-router';
 Vue.use(BaiduMap, {
   ak: 'l8DtC0qfpbnjKgVrowZYyG5BNHiYzNvl'
 })
+
 Vue.use(ElementUI),Vue.use(VueRouter);
 
 router.afterEach((to, from, next) => {

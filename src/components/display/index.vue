@@ -20,34 +20,29 @@
 									<p :class="isactive == index ? 'addclass' : '' " @click='onclick(index)' class="tab_label_text">{{item.title}}</p>
 								</div>
 							</div>
+							
+							<div class="tab_label on  clearfix" >
+								<p class="fl">分类 :</p>
+								<ul class="fl clearfix">
+									<li  v-for="(item,index) in typeLists" :key="index" :class="isactive == index ? 'addclass' : '' " @click='onclick(index)'>{{item.title}}</li>
+								</ul>
+							</div>
+							
 							<div class="goods clearfix">
 								<div class="goods_lsit" v-for="item in goodslist.slice((currentPage- 1)*pagesize,currentPage*pagesize)" :key="item.index">
 									<img :src="item.img" />
 								</div>
-							</div>
-							<div class="turn_page">
-								<el-pagination
-									layout="prev, pager, next"
-									:page-size="pagesize"
-									 @current-change="current_change"
-									 :current-page.sync="currentPage"
-									 :pager-count="5"
-									 :total="goodslist.length">
-								</el-pagination>
-							</div>
-						</div>
-						<div class="tab-div tab_div_list " v-show="cur==1">
-							<div class="goods clearfix">
-								<div class="tab_label clearfix" >
-									<div   style="width: 871px; margin: 0 auto;" v-for="(item,index) in typeLists" :key="index">
-										<p :class="isactive == index ? 'addclass' : '' " @click='onclick(index)' class="tab_label_text">{{item.title1}}</p>
+								<div class="goods_lsit on margin-15-button" v-for="item in goodslist" :key="item.index">
+									<div style="width: 100%; height: 150px;">
+										<img style="height: 100%;" :src="item.img" />
+									</div>
+									<div>
+										<p class="text-center margin-5-top text-bolder font-14">文艺风范</p>
+										<p class="overflow-1">描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述</p>
 									</div>
 								</div>
-								<div class="goods_lsit" v-for="item in goodslist.slice((currentPage- 1)*pagesize,currentPage*pagesize)" :key="item.index">
-									<img :src="item.img" />
-								</div>
 							</div>
-							<div class="turn_page">
+							<div class="turn_page active">
 								<el-pagination
 									layout="prev, pager, next"
 									:page-size="pagesize"
@@ -57,6 +52,47 @@
 									 :total="goodslist.length">
 								</el-pagination>
 							</div>
+						
+						</div>
+						<div class="tab-div tab_div_list " v-show="cur==1">
+							<div class="tab_label clearfix" >
+								<div   style="width: 871px; margin: 0 auto;" v-for="(item,index) in typeLists" :key="index">
+									<p :class="isactive == index ? 'addclass' : '' " @click='onclick(index)' class="tab_label_text">{{item.title1}}</p>
+								</div>
+							</div>
+							
+							<div class="tab_label on  clearfix" >
+								<p class="fl">分类 :</p>
+								<ul class="fl clearfix">
+									<li  v-for="(item,index) in typeLists" :key="index" :class="isactive == index ? 'addclass' : '' " @click='onclick(index)'>{{item.title1}}</li>
+								</ul>
+							</div>
+							
+							<div class="goods clearfix">
+								<div class="goods_lsit" v-for="item in goodslist.slice((currentPage- 1)*pagesize,currentPage*pagesize)" :key="item.index">
+									<img :src="item.img" />
+								</div>
+								<div class="goods_lsit on margin-15-button" v-for="item in goodslist" :key="item.index">
+									<div style="width: 100%; height: 150px;">
+										<img style="height: 100%;" :src="item.img" />
+									</div>
+									<div>
+										<p class="text-center margin-5-top text-bolder font-14">文艺风范</p>
+										<p class="overflow-1">描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述</p>
+									</div>
+								</div>
+							</div>
+							<div class="turn_page active">
+								<el-pagination
+									layout="prev, pager, next"
+									:page-size="pagesize"
+									 @current-change="current_change"
+									 :current-page.sync="currentPage"
+									 :pager-count="5"
+									 :total="goodslist.length">
+								</el-pagination>
+							</div>
+													
 						</div>
 						<div class="tab-div" v-show="cur==2">
 							<div class="null">主人正在开发中~</div>
@@ -105,6 +141,7 @@ export default {
 </script>
 
 <style>
+@import url("index.css");
 .tab_label {
 	width: 100%;
 	margin-bottom: 35px;
@@ -119,6 +156,7 @@ export default {
 	margin: 0 auto;
 	margin-right: 17px;
 	float: left;
+	text-align: center;
 	border: 1px solid #666666;
 }
 .addclass{
